@@ -3,7 +3,6 @@ class Reply{
     private $xml;
     
     public function __construct($status,$type,$message,$sessionID=''){
-        
         $this->sessionID = $sessionID;
         $this->status = $status;
         $this->type = $type;
@@ -16,7 +15,6 @@ class Reply{
         <result>'.$this->status.'</result>
         <sessionid>'.$this->sessionID.'</sessionid>
         <errors>
-        <errorCode>1</errorCode>
         <errorMessage>'.$this->message.'</errorMessage>
         </errors>
         <price>0</price>
