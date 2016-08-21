@@ -1,6 +1,5 @@
 <?php
 class Reply{
-    private $isValid;
     private $xml;
     
     public function __construct($status,$type,$message,$sessionID=''){
