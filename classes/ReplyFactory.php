@@ -21,7 +21,6 @@ class Reply{
         </response>';
         
         print $this->xml;
-        exit;
     }
 }
 
